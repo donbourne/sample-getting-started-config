@@ -1,1 +1,1 @@
-# sample-getting-started-config
+# sample-getting-started-configx
