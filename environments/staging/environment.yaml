@@ -36,11 +36,11 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-  # observability:
-  #   cloudwatch:
-  #    roleArn: arn:aws:iam::439159788015:role/IBMAppFlowCloudWatchRole-20231102-2136-1580-50b5-da7e135c716d
-  #    logGroup: /ibm/appflow/myLogs
-  #    region: us-east-1
+  observability:
+    cloudwatch:
+      roleArn: arn:aws:iam::439159788015:role/IBMAppFlowCloudWatchRole-20231103-2006-5585-9020-89e6f64ce81c
+      logGroup: /ibm/appflow/don-demo-log-group-1103
+      region: us-east-1
   version: "c9229820-3864-467b-a5d2-88ae71ce6510"
 # probes
 # dynamic scaling
